@@ -1,0 +1,17 @@
+Usage:
+>> python3 art_style.py -c CONTENT -s STYLE 
+                        [--num_iter [NUM_ITER]] [-i [INIT]]
+
+Neruo Style Transfer.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONTENT, --content CONTENT
+                        the style image
+  -s STYLE, --style STYLE
+                        the style image
+  -i [INIT], --init [INIT]
+                        the initial image
+  --num_iter [NUM_ITER]
+                        the initial image
+                        
