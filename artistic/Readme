@@ -1,7 +1,24 @@
+//------------------------------------------------------------------------------
+// By GongPing @2017-11-29
+//------------------------------------------------------------------------------
+//
+// Note:
+//   You must download the VGG-19 model before using 'art_style.py'!
+//   (The pretrained model is too big(~510) to upload to github)
+//   Please refer to 
+//     ./artistic/pretrained-model/imagenet-vgg-verydeep-19.mat.download_address
+//
+
 Usage:
 >> python3 art_style.py -c CONTENT -s STYLE 
                         [--num_iter [NUM_ITER]] [-i [INIT]]
+Example:
+>> python3 art_style.py -c tiananmen.jpg -s starry.jpg --num_iter=100 (defaut 300)
 
+Generated images would be written to the ./output folder,
+At the end, learning curves would also be plotted.
+
+//------------------------------------------------------------------------------
 Neruo Style Transfer.
 
 optional arguments:
